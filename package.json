@@ -1,0 +1,36 @@
+{
+  "name": "bugfree",
+  "version": "0.1.0",
+  "description": "BugFree API Node.js client",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test-all",
+    "blanket": { "pattern": "bugfree/lib" },
+    "travis-cov": { "threshold": 100 }
+  },
+  "dependencies": {
+    "eventproxy": ">=0.2.6",
+    "utility": ">=0.1.9",
+    "urllib": ">=0.5.5",
+    "debug": ">=0.7.4"
+  },
+  "devDependencies": {
+    "should": "*",
+    "pedding": "*",
+    "blanket": "*",
+    "travis-cov": "*",
+    "coveralls": "*",
+    "mocha-lcov-reporter": "*",
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/fengmk2/bugfree",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fengmk2/bugfree.git"
+  },
+  "keywords": [
+    "bugfree", "bugfree api", "bug"
+  ],
+  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com)",
+  "license": "MIT"
+}
