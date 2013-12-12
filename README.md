@@ -31,6 +31,13 @@ client.users.getsid(function (err, session) {
 ```bash
 $ git summary
 
+ project  : bugfree
+ repo age : 2 minutes
+ active   : 1 days
+ commits  : 1
+ files    : 12
+ authors  :
+     1  fengmk2                 100.0%
 ```
 
 ## License

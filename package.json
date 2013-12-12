@@ -1,6 +1,6 @@
 {
   "name": "bugfree",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "BugFree API Node.js client",
   "main": "index.js",
   "scripts": {
