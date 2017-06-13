@@ -1,20 +1,14 @@
-/*!
- * bugfree - test/client.test.js
- *
- * Copyright(c) 2013 fengmk2 <fengmk2@gmail.com>
- * MIT Licensed
- */
-
-"use strict";
-
-/**
- * Module dependencies.
- */
+'use strict';
 
 var should = require('should');
-var client = require('./client');
 
 describe('client.test.js', function () {
+  var client;
+
+  it.only('should init client', function() {
+    client = require('./client');
+    should.exist(client);
+  });
 
   describe('getsid()', function () {
     it('should get session info', function (done) {
